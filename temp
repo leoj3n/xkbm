@@ -1,0 +1,353 @@
+Gamepad {
+    data: GamepadData {
+        state: GamepadState {
+            buttons: {
+                Code(
+                    EvCode(
+                        EvCode {
+                            page: 9,
+                            usage: 1,
+                        },
+                    ),
+                ): ButtonData {
+                    last_event_ts: SystemTime {
+                        tv_sec: 1598919267,
+                        tv_nsec: 62641000,
+                    },
+                    counter: 0,
+                    value: 1.0,
+                    is_pressed: true,
+                    is_repeating: false,
+                },
+                Code(
+                    EvCode(
+                        EvCode {
+                            page: 9,
+                            usage: 2,
+                        },
+                    ),
+                ): ButtonData {
+                    last_event_ts: SystemTime {
+                        tv_sec: 1598919266,
+                        tv_nsec: 306652000,
+                    },
+                    counter: 0,
+                    value: 0.0,
+                    is_pressed: false,
+                    is_repeating: false,
+                },
+            },
+            axes: {},
+        },
+        mapping: Mapping {
+            mappings: {
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 12,
+                    },
+                ): Btn(
+                    DPadUp,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 1,
+                        usage: 53,
+                    },
+                ): Btn(
+                    LeftTrigger2,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 14,
+                    },
+                ): Btn(
+                    DPadLeft,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 8,
+                    },
+                ): Btn(
+                    RightTrigger2,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 10,
+                    },
+                ): Btn(
+                    Select,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 1,
+                        usage: 49,
+                    },
+                ): Axis(
+                    LeftStickY,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 4,
+                    },
+                ): Btn(
+                    West,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 1,
+                        usage: 51,
+                    },
+                ): Axis(
+                    RightStickX,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 6,
+                    },
+                ): Btn(
+                    RightTrigger,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 2,
+                    },
+                ): Btn(
+                    East,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 1,
+                        usage: 52,
+                    },
+                ): Axis(
+                    RightStickY,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 13,
+                    },
+                ): Btn(
+                    DPadDown,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 15,
+                    },
+                ): Btn(
+                    DPadRight,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 1,
+                        usage: 48,
+                    },
+                ): Axis(
+                    LeftStickX,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 9,
+                    },
+                ): Btn(
+                    Start,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 1,
+                        usage: 50,
+                    },
+                ): Btn(
+                    RightTrigger2,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 11,
+                    },
+                ): Btn(
+                    Mode,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 5,
+                    },
+                ): Btn(
+                    LeftTrigger,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 7,
+                    },
+                ): Btn(
+                    LeftTrigger2,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 1,
+                    },
+                ): Btn(
+                    South,
+                ),
+                EvCode(
+                    EvCode {
+                        page: 9,
+                        usage: 3,
+                    },
+                ): Btn(
+                    North,
+                ),
+            },
+            name: "",
+            default: true,
+            hats_mapped: 0,
+        },
+        tx: Sender,
+        id: GamepadId(
+            0,
+        ),
+    },
+    inner: Gamepad {
+        inner: Gamepad {
+            name: "Xbox 360 Wired Controller",
+            uuid: 03000000-6f0e-0000-1302-000000000000,
+            entry_id: 4294972809,
+            location_id: 336592896,
+            page: 1,
+            usage: 5,
+            axes_info: {
+                48: AxisInfo {
+                    min: -32768,
+                    max: 32767,
+                    deadzone: None,
+                },
+                49: AxisInfo {
+                    min: -32768,
+                    max: 32767,
+                    deadzone: None,
+                },
+                50: AxisInfo {
+                    min: 0,
+                    max: 255,
+                    deadzone: None,
+                },
+                51: AxisInfo {
+                    min: -32768,
+                    max: 32767,
+                    deadzone: None,
+                },
+                52: AxisInfo {
+                    min: -32768,
+                    max: 32767,
+                    deadzone: None,
+                },
+                53: AxisInfo {
+                    min: 0,
+                    max: 255,
+                    deadzone: None,
+                },
+            },
+            axes: [
+                EvCode {
+                    page: 1,
+                    usage: 48,
+                },
+                EvCode {
+                    page: 1,
+                    usage: 49,
+                },
+                EvCode {
+                    page: 1,
+                    usage: 50,
+                },
+                EvCode {
+                    page: 1,
+                    usage: 51,
+                },
+                EvCode {
+                    page: 1,
+                    usage: 52,
+                },
+                EvCode {
+                    page: 1,
+                    usage: 53,
+                },
+            ],
+            buttons: [
+                EvCode {
+                    page: 9,
+                    usage: 1,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 2,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 3,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 4,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 5,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 6,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 7,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 8,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 9,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 10,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 11,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 12,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 13,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 14,
+                },
+                EvCode {
+                    page: 9,
+                    usage: 15,
+                },
+            ],
+            is_connected: true,
+        },
+    },
+}
